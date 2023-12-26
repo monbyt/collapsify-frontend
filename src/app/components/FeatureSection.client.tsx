@@ -6,8 +6,8 @@ import Image from 'next/image';
 const features = [
   {
     id: 1,
-    title: 'Predictive Customer Insights',
-    description: 'Get ahead of the game with insights that not only meet but anticipate your customers needs, making every experience with your product a personal one',
+    title: 'Unified Marketing Ecosystem',
+    description: 'Integrate effortlessly with our Unified Marketing Ecosystem. Connect your favorite tools and platforms with ease, thanks to our extensive library of API integrations. ',
     image: 'https://d37oebn0w9ir6a.cloudfront.net/account_6827/tag-feature-predictive-customer-analytics_47800d2b68288c76bd20d9926742984d.gif',
     textRight: false,
   },
@@ -39,7 +39,7 @@ const FeatureSection = () => {
           className="flex flex-col md:flex-row items-center justify-center min-h-screen"
           
         >
-          <div  className={`md:w-1/2 p-6 ${feature.textRight ? 'md:order-2' : ''}`}>
+          <div  className={`md:w-1/3 p-6 ${feature.textRight ? 'md:order-2' : ''}`}>
             <h2 className="text-3xl font-bold text-white">{feature.title}</h2>
             <p className="mt-4 text-lg text-white">{feature.description}</p>
           </div>
