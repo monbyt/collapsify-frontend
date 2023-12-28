@@ -13,9 +13,13 @@ import Footer from './components/Footer';
 import Uses from './components/Uses';
 import { faInstagram, faTwitter, faMeta } from '@fortawesome/free-brands-svg-icons';
 import NewTempWatilist from './components/NewTempWaitlist.client';
+import Head from 'next/head';
 export default function Home() {
+  
   return (
     <main className="bg-gray-950 text-white">
+       <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"/>
+      
       {/* <NavBar /> */}
       <NewTempWatilist/>
       {/* <Watilist/> */}
