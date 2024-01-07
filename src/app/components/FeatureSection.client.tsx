@@ -45,7 +45,7 @@ const FeatureSection = () => {
           </div>
           <div className="md:w-1/2 flex justify-center p-6" >
             {/* Image */}
-            <img  src={feature.image} alt={feature.title} className="max-w-full h-auto" />
+            <Image  src={feature.image} alt={feature.title} className="max-w-full h-auto" />
           </div>
         </div>
       ))}

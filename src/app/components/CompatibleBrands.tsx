@@ -11,7 +11,7 @@ const CompatibleBrands = () => {
     </h2>
     <div className="text-white text-center text-4xl font-light self-center max-w-[839px] mt-7 max-md:max-w-full">
       Unlock the full potential of your marketing efforts with
-      Collapsify's vast network of seamless integrations across leading
+      Collapsify&apos;s vast network of seamless integrations across leading
       platforms and services
     </div>{" "}
     <div className="self-center flex w-full max-w-[1293px] items-center justify-between gap-5 mt-36 max-md:max-w-full max-md:flex-wrap max-md:justify-center max-md:mt-10">

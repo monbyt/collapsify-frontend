@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-
+import Image from 'next/image'; 
 // Define a type for the step details
 type StepDetail = {
   title: string;
@@ -54,7 +54,7 @@ const CampaignInterface: React.FC = () => {
       <div className="flex flex-col w-2/3  p-4">
         {activeStep && (
           <>
-            <img src={activeStep.image} alt={activeStep.title} className="w-full h-auto" />
+            <Image src={activeStep.image} alt={activeStep.title} className="w-full h-auto" />
             <h3 className="text-xl font-bold text-white mt-4">{activeStep.title}</h3>
             <p className="text-white">{activeStep.description}</p>
           </>

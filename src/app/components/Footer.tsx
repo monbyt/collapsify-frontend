@@ -3,6 +3,7 @@ import { faMeta } from '@fortawesome/free-brands-svg-icons/faMeta'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import Image from 'next/image'; 
 
 const Footer = () => {
   return (
@@ -30,10 +31,9 @@ const Footer = () => {
           <div className="text-white text-center text-sm font-thin mt-16 max-md:mt-10">
             © 2023 Collapsify, LLC
           </div>{" "}
-          <img
-            loading="lazy"
-            className="aspect-[1416] object-contain object-center w-full fill-white stroke-[1px] stroke-white overflow-hidden self-stretch mt-20 max-md:max-w-full max-md:mt-10"
-          />{" "}
+          <Image
+        loading="lazy"
+        className="aspect-[1416] object-contain object-center w-full fill-white stroke-[1px] stroke-white overflow-hidden self-stretch mt-20 max-md:max-w-full max-md:mt-10" src={''} alt={''}          />{" "}
           <div className="self-stretch flex w-full items-stretch justify-between gap-5 mt-12 pr-6 max-md:max-w-full max-md:flex-wrap max-md:justify-center max-md:mt-10 max-md:pr-5">
             <div className="text-white text-center text-4xl font-extrabold my-auto">
               Collapsify
