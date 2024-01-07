@@ -6,6 +6,10 @@ import React from 'react'
       const radialGradientStyle = {
         background: 'radial-gradient(circle at center, #0E2247 0%, #00071400 40%)'
       }
+      const APIKey ={
+        key : '6e19665440a0b39a371e976a7758ad35-us17', 
+        listid: '4d36fc85b5'
+      }
     return (
         <div style={radialGradientStyle} className="flex flex-col text-center px-4 lg:px-20 py-10 h-screen justify-center items-center">
         <h1 className="text-6xl font-semibold mt-10 lg:mt-20">

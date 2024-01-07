@@ -9,7 +9,7 @@ const Uses = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-4xl mx-auto">
           {/* Repeated for each div */}
-          <div className="bg-white/5 border border-white/20 shadow-lg rounded-[36px] p-8 backdrop-blur-md hover:shadow-2xl transition-shadow">
+          <div className="bg-gradient-to-r bg-gradient-to-r from-cyan-500 to-blue-500 border border-white/20 shadow-lg rounded-[36px] p-8 backdrop-blur-md hover:shadow-2xl transition-shadow">
           <h3 className="text-white text-center text-3xl font-semibold mt-2.5">
             E-Commerce Personalization
           </h3>
