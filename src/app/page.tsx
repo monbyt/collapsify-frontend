@@ -12,24 +12,20 @@ import Watilist from './components/Watilist';
 import Footer from './components/Footer';
 import Uses from './components/Uses';
 import { faInstagram, faTwitter, faMeta } from '@fortawesome/free-brands-svg-icons';
-import NewTempWatilist from './components/NewTempWaitlist.client';
+'use client'
+import WaitlistSignup from './components/WaitlistSignup.client';
+import Joined from './components/Joined';
 import Head from 'next/head';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 export default function Home() {
   
   return (
-    <main className="bg-gray-950 text-white">
-       {/* <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"/> */}
-      
-      {/* <NavBar /> */}
-      <NewTempWatilist/>
-      {/* <Watilist/> */}
-      {/* <FeatureSection />
-      <WhyUseCollapsify />
-      <CampaignTimeline /> */}
-      {/* <Uses /> */}
-      {/* <Footer/> */}
-      
-      
-    </main>
+    <Router>
+    <Routes>
+      <Route path="/" element={<WaitlistSignup />} />
+      <Route path="/joined" element={<Joined />} />
+    </Routes>
+  </Router>
   )
 }
